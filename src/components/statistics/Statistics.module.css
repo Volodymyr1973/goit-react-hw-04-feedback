@@ -1,0 +1,37 @@
+.statistics__good {
+  margin: 0;
+  padding: 5px;
+  background-color: green;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+}
+
+.statistics__neutral {
+  margin: 0;
+  padding: 5px;
+  background-color: yellow;
+  color: gray;
+  height: 30px;
+  line-height: 30px;
+}
+
+.statistics__bad {
+  margin: 0;
+  padding: 5px;
+  background-color: red;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+}
+
+.statistics__total,
+.statistics__positive,
+.statistics__noresult {
+  margin: 0;
+  padding: 5px;
+  background-color: grey;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+}

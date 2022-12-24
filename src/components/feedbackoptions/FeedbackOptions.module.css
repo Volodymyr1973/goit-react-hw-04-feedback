@@ -1,0 +1,40 @@
+.feedback__box {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.button__good,
+.button__neutral,
+.button__bad {
+  width: 100px;
+  border-color: transparent;
+  border-radius: 2px;
+}
+
+.button__good {
+  border-color: green;
+}
+
+.button__good:hover {
+  color: white;
+  background-color: green;
+}
+
+.button__neutral {
+  border-color: yellow;
+}
+
+.button__neutral:hover {
+  color: grey;
+  background-color: yellow;
+}
+
+.button__bad {
+  border-color: red;
+}
+
+.button__bad:hover {
+  color: white;
+  background-color: red;
+}
